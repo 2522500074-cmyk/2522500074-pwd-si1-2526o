@@ -5,3 +5,4 @@ NAMA : ENGRASIA MASYITHAH
 Hari ini, Minggu 05.Okt.2025. saya belajar
 1) ternyata, struktur html tidak perlu ditulis lengkap, karena browser punya eror tolerance
 
+
