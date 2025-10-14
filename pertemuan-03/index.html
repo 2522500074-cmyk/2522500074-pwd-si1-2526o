@@ -125,12 +125,12 @@
             box-sizing: border-box; 
             margin-bottom: 15px; 
         }
-        #Contact { 
-            @media (max-width: 600px) {
-            #about p {
-                flex-direction: column;
-                align-items: flex-start;
-            }
+        #contact input:focus,
+        #contact textarea:focus {
+            border-color: #003366;
+            box-shadow: 0 0 4px rgba(0, 51, 102, 0.3);
+            outline: none;
+        }
             #about strong {
                 text-align: left;
                 padding-right: 0;
