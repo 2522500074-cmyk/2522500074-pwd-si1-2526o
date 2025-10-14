@@ -113,14 +113,18 @@
             margin-top: 10px;
             margin-bottom: 5px;
         }
-            #Contact { 
-            min-width: 180px;
-            color: #e776c8;
-            font-weight: 600;
-            text-align: right;
-            padding-right: 16px;
-            flex-shrink: 0;   
-            }
+        #contact input[type="text"],
+        #contact input[type="email"],
+        #contact textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 15px;
+            transition: all 0.3s ease;
+            box-sizing: border-box; 
+            margin-bottom: 15px; 
+        }
         #Contact { 
             @media (max-width: 600px) {
             #about p {
