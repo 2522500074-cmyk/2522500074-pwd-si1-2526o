@@ -167,12 +167,14 @@ margin-top: 30px;
 border-top: 2px solid #d1d5db;
 background-color: #f9fafb;
 }
+
 footer p { 
 color: #374151;
 font-family: "Segoe UI", sans-serif;
 font-size: 15px;
 margin: 0;
 }
+ 
  </style>
 <style>
 #home { 
@@ -183,25 +185,28 @@ text-align: center;
 box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
 margin-top: 20px;
 transition: transform 0.3s ease;
+
 }
 #home:hover { 
 transform: scale(1.02);
 }
+
 #home h2 { 
 font-size: 30px;
 color: #002855;
 margin-bottom: 15px;
 position: relative;
 }
-         #home h2::after { 
-            content: "";
-            display: block;
-            width: 60%;
-            height: 3px;
-            background-color: #002855;
-            margin: 8px auto 0 auto;
-            border-radius: 3px;
-        }
+         
+#home h2::after { 
+content: "";
+display: block;
+width: 60%;
+height: 3px;
+background-color: #002855;
+margin: 8px auto 0 auto;
+border-radius: 3px;
+}
          #home p { 
             color: #333;
             font-size: 16px;
