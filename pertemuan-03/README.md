@@ -13,5 +13,6 @@ Hari ini, minggu 12 Oktober, saya memopelajari:
     <li>membuat styling untuk selector ID #about mode responsif (mobile)</li>
     <li>membuat struktur form untuk section contact</li>
     
+    
 
 </ol>>
