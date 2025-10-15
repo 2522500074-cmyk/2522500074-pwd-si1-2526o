@@ -82,7 +82,20 @@
     
 <section id="Contact">
 <h2>Tentang aku</h2>
-<form action=""method="get">
+<form action="" method="GET">
+    <label for="txtNama">Nama:</label>
+    <input type="text" id="txtNama" name="txtNama" placeholder="Masukkan nama" required autocomplete="name">
+    
+    <label for="txtEmail">Email:</label>
+    <input type="email" id="txtEmail" name="txtEmail" placeholder="Masukkan email" required autocomplete="email">
+    
+    <label for="txtPesan">Pesan:</label>
+    <textarea id="txtPesan" name="txtPesan" rows="4" placeholder="Tulis pesan anda..." required></textarea>
+    
+    <button type="submit">Kirim</button>
+    <button type="reset">Batal</button>
+</form>
+
 <style>
 #contact {
 background-color: white;
@@ -160,17 +173,17 @@ font-family: "Segoe UI", sans-serif;
 font-size: 15px;
 margin: 0;
 }
-        </style>
-        <style>
-            #home { 
-            background: linear-gradient(135deg, #e6f0ff, #ffffff);
-            padding: 60px 40px;
-            border-radius: 12px;
-            text-align: center;
-            box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
-            margin-top: 20px;
-            transition: transform 0.3s ease;
-            }
+ </style>
+<style>
+#home { 
+background: linear-gradient(135deg, #e6f0ff, #ffffff);
+padding: 60px 40px;
+border-radius: 12px;
+text-align: center;
+box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+margin-top: 20px;
+transition: transform 0.3s ease;
+}
             #home:hover { 
             transform: scale(1.02);
         }
