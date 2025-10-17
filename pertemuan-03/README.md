@@ -5,7 +5,7 @@ Nama : Engrasia Masyithah<br> 2025
 
 Hari ini, minggu 12 Oktober, saya mempelajari:
 <ol>
-    <li>menggunakan file autolengkap.html (pertemuan-02) ke index.html(pertemuan-03)</li>
+    <li>menggunakan file autolengkap.html (pertemuan-02) ke index.html (pertemuan-03)</li>
     <li>membuat styling untuk selector ID #about</li>
     <li>membuat styling untuk selector ID #about elemen h2</li>
     <li>membuat styling untuk selector ID #about elemen p</li>
@@ -13,6 +13,4 @@ Hari ini, minggu 12 Oktober, saya mempelajari:
     <li>membuat styling untuk selector ID #about mode responsif (mobile)</li>
     <li>membuat struktur form untuk section contact</li>
     
-    
-
 </ol>>
