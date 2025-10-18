@@ -37,13 +37,11 @@
             flex-shrink: 0;
         }
         @media (max-width: 600px) {
-            #about p 
-            #contact label {
+            #about p {
                 flex-direction: column;
                 align-items: flex-start;
             }
-            #about strong 
-            #contact label>span {
+            #about strong {
                 text-align: left;
                 padding-right: 10px;
                 margin-bottom: 2px;
@@ -201,7 +199,17 @@ transform: translateY(-1px);
 }
 
 @media (max-width: 600px) { 
-
+#about p,
+#contact label {
+flex-direction: column;
+align-items: flex-start;
+}
+#about strong,
+#contact label>span {
+text-align: left;
+padding-right: 0;
+margin-bottom: 2px;
+}
 }
 
 
