@@ -21,7 +21,7 @@ Hari ini, minggu 12 Oktober, saya mempelajari:
     <li>section #contact styling tombol</li>
     <li>section #contact styling warna tombol</li>
     <li>section #contact styling hover tombol</li>
-    
+    <li>section #contact styling label dan label>span</li>
     
 
 
