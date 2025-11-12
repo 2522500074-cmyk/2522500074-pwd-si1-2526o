@@ -2,11 +2,11 @@
 
 
 
-hari ini kamis 06 november 2025
-<br>Nim: 2511500073</br>
-<br>Nama: muazijan pratama</br>
+hari ini kamis 13 november 2025
+<br>Nim: 2522500074</br>
+<br>Nama: Engrasia Masyithah</br>
 <ol>
-    <li>download file zip pertemuan07</li>
+    <li>mendowload file zip pertemuan-07</li>
     <li>menambahkan  action="PROSES.php" method="POST"</li>
     <li>membuat file proses.php</li>
     <li>mengambil nilai input dari form ke proses</li>
