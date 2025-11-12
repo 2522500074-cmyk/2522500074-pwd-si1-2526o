@@ -13,7 +13,7 @@ hari ini kamis 06 november 2025
     <li>menyimpan nilai input ke variabel</li>
     <li>sesion index.php dan proses.php</li>
     <li>redirect ke index.php</li>
-    <li>mengubah section about dengan data pribadi</li>
+    <li>mengubah section about dengan data pribadI</li>
     <li></li>
     <li></li>
     
