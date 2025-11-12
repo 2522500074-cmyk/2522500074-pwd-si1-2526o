@@ -14,7 +14,7 @@ hari ini kamis 06 november 2025
     <li>sesion index.php dan proses.php</li>
     <li>redirect ke index.php</li>
     <li>mengubah section about dengan data pribadI</li>
-    <li></li>
+    <li>memperbarui nama ke footer</li>
     <li></li>
     
 </ol>
