@@ -10,3 +10,21 @@ hari ini kamis 13 november 2025
     <li>styling style.css di pertemuan-08<li>
     <li>mengganti section about dengan biodata sederhana mahasiswa</li>
     <li>mengubah warna bacground</li>
+    <li>memperbarui warna bacground header agar tidak kontras</li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+
+<ol>
+    
