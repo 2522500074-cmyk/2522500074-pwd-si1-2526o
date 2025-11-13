@@ -7,3 +7,4 @@ hari ini kamis 13 november 2025
     <li>menambahkan section about nim dan nama<li>
     <li>menambahkan section contact<li>
     <li>memperbarui footer nama saya<li>
+    <li>styling style.css di pertemuan-08<li>
