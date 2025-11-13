@@ -11,7 +11,7 @@ hari ini kamis 13 november 2025
     <li>mengganti section about dengan biodata sederhana mahasiswa</li>
     <li>mengubah warna bacground</li>
     <li>memperbarui warna bacground header agar tidak kontras</li>
-    <li></li>
+    <li>styling css agar ada emoji</li>
     <li></li>
     <li></li>
     <li></li>
