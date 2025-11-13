@@ -19,7 +19,7 @@ hari ini kamis 13 november 2025
     <li>styling animasi header</li>
     <li>styling home about kontak</li>
     <li>styling footer</li>
-    <li></li>
+    <li>styling about strong span</li>
     <li></li>
     <li></li>
     <li></li>
