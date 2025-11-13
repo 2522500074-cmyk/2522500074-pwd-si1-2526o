@@ -19,8 +19,23 @@ header {
 
 /* Menambahkan emoji bunga (🌸) berwarna pink sedang pada H1 di dalam header */
 header h1::before {
-  content: '🌸 ' ini header '🌸';
+  /* Konten asli Anda, saya tambahkan emoji sparkle di depan */
+  content: '✨🌸 ' ;
   color: #FF69B4; /* Pink sedang untuk emoji */
+}
+
+/* Menambahkan emoji di sisi kanan */
+header h1::after {
+  content: '🌸✨'; /* Emoji bunga dan sparkle di sebelah kanan */
+  color: #FF69B4; /* Menggunakan warna yang sama untuk konsistensi estetika */
+}
+
+/* Sedikit penyesuaian estetika untuk H1 agar rapi (ini tambahan kecil yang diperlukan) */
+header h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px; /* Memberi jarak sedikit agar tidak menempel */
 }
 
 header ul {
