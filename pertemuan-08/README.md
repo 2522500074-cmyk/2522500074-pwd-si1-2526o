@@ -15,7 +15,7 @@ hari ini kamis 13 november 2025
     <li>menambahkan scrpit.js di pertemuan-08</li>
     <li>menambahkan uts.php ke pertemuan-08</li>
     <li>styling footer nama saya</li>
-    <li></li>
+    <li>styling tombol kirim dan batal</li>
     <li></li>
     <li></li>
     <li></li>

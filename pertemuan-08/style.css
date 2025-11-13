@@ -154,14 +154,15 @@ header li a:active {
 }
 
 #contact button[type="submit"] {
-  background-color: #003366; /* Tombol submit biru tua */
-  color: #fff;
+  background-color: #FFC0CB; /* Tombol submit pink soft */
+  color: #003366; /* Teks biru tua */
   font-weight: 600;
 }
 
+/* --- PERUBAHAN TOMBOL RESET (BATAL) --- */
 #contact button[type="reset"] {
-  background-color: #b4b4b4;
-  color: #fff;
+  background-color: #003366; /* Tombol batal biru tua */
+  color: #fff; /* Teks putih */
   font-weight: 500;
 }
 
