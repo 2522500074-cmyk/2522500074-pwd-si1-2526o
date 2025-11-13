@@ -9,3 +9,4 @@ hari ini kamis 13 november 2025
     <li>memperbarui footer nama saya<li>
     <li>styling style.css di pertemuan-08<li>
     <li>mengganti section about dengan biodata sederhana mahasiswa</li>
+    <li>mengubah warna bacground</li>
