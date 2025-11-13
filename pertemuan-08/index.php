@@ -161,7 +161,7 @@ $sesnamaadik = $_SESSION["txtnamaadik"] ?? "";
   </main>
 
   <footer>
-    <p>&copy; 2025 ENGRASIA MASYITHAH[2522500074]</p>
+    <p>&copy; 2025 ENGRASIA MASYITHAH CANS[2522500074]</p>
   </footer>
 
   <script src="script.js"></script>
