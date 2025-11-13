@@ -14,7 +14,7 @@ hari ini kamis 13 november 2025
     <li>styling css agar ada emoji</li>
     <li>menambahkan scrpit.js di pertemuan-08</li>
     <li>menambahkan uts.php ke pertemuan-08</li>
-    <li></li>
+    <li>styling footer nama saya</li>
     <li></li>
     <li></li>
     <li></li>

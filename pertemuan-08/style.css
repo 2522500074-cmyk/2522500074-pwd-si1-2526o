@@ -184,12 +184,25 @@ footer {
   padding: 10px;
 }
 
-/* Menambahkan emoji love (💖) di footer */
 footer::after {
-    content: ' 💖';
+    /* Konten asli, tambahkan emoji elegan di sebelah kanan */
+    content: ' 💖 ⭐';
     color: #FFC0CB; /* Warna pink soft untuk emoji */
 }
 
+/* Tambahkan pseudo-element baru untuk sisi kiri */
+footer::before {
+    content: '⭐ '; /* Emoji elegan di sebelah kiri */
+    color: #FFC0CB; /* Gunakan warna yang sama agar serasi */
+}
+
+/* Sedikit penyesuaian estetika (diperlukan untuk perataan yang rapi) */
+footer {
+    display: flex;
+    justify-content: center; /* Memusatkan semua konten */
+    align-items: center;
+    gap: 5px; /* Memberi jarak antara emoji dan teks */
+}
 
 .menu-toggle {
   display: none;
