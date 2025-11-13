@@ -10,6 +10,21 @@ body {
   line-height: 1.5;
 }
 
+@keyframes subtle-move {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-3px); } /* Bergerak naik 3px */
+  100% { transform: translateY(0); }
+}
+
+header {
+  background: #003366; /* Background header tetap biru tua agar kontras */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  /* Menambahkan animasi bergerak */
+  animation: subtle-move 4s ease-in-out infinite; /* Animasi berulang setiap 4 detik */
+}
+
 header {
   background: #003366; /* Background header tetap biru tua agar kontras */
   color: #fff;
