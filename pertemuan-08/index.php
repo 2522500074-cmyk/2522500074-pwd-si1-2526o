@@ -63,7 +63,7 @@ $sesnamaadik = $_SESSION["txtnamaadik"] ?? "";
           $Nama_adik = "Jihan Nadhifah dan Alesha Zahra&hearts;";
       ?>
 
-      <h2>Biodata Sederhana Mahasiswa</h2>
+      <h2>🌸Biodata Sederhana Mahasiswa🌸</h2>
       <p><strong>NIM:</strong><?php echo $sesnim?> </p>
       <p><strong>Nama Lengkap:</strong><?php echo $sesnama?></p>
       <p><strong>Tempat Lahir:</strong><?php echo $sestempatlahir?></p>
