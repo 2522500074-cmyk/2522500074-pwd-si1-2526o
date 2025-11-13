@@ -19,7 +19,7 @@ header {
 
 /* Menambahkan emoji bunga (🌸) berwarna pink sedang pada H1 di dalam header */
 header h1::before {
-  content: '🌸 ' '🌸';
+  content: '🌸 ' ini header '🌸';
   color: #FF69B4; /* Pink sedang untuk emoji */
 }
 
