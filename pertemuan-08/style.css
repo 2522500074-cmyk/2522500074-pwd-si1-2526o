@@ -5,52 +5,50 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #FFC0CB; /* Background body diubah menjadi pink soft */
-  color: #003366; /* Warna teks body diubah menjadi biru tua */
+  background: #FFC0CB; 
+  color: #003366; 
   line-height: 1.5;
 }
 
 @keyframes subtle-move {
   0% { transform: translateY(0); }
-  50% { transform: translateY(-3px); } /* Bergerak naik 3px */
+  50% { transform: translateY(-3px); } 
   100% { transform: translateY(0); }
 }
 
 header {
-  background: #003366; /* Background header tetap biru tua agar kontras */
+  background: #003366; 
   color: #fff;
   padding: 20px;
   text-align: center;
-  /* Menambahkan animasi bergerak */
-  animation: subtle-move 4s ease-in-out infinite; /* Animasi berulang setiap 4 detik */
+  animation: subtle-move 4s ease-in-out infinite; 
 }
 
 header {
-  background: #003366; /* Background header tetap biru tua agar kontras */
+  background: #003366; 
   color: #fff;
   padding: 20px;
   text-align: center;
 }
 
-/* Menambahkan emoji bunga (🌸) berwarna pink sedang pada H1 di dalam header */
+
 header h1::before {
-  /* Konten asli Anda, saya tambahkan emoji sparkle di depan */
   content: '✨🌸 ' ;
-  color: #FF69B4; /* Pink sedang untuk emoji */
+  color: #FF69B4; 
 }
 
-/* Menambahkan emoji di sisi kanan */
+
 header h1::after {
-  content: '🌸✨'; /* Emoji bunga dan sparkle di sebelah kanan */
-  color: #FF69B4; /* Menggunakan warna yang sama untuk konsistensi estetika */
+  content: '🌸✨'; 
+  color: #FF69B4; 
 }
 
-/* Sedikit penyesuaian estetika untuk H1 agar rapi (ini tambahan kecil yang diperlukan) */
+
 header h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5px; /* Memberi jarak sedikit agar tidak menempel */
+    gap: 5px; 
 }
 
 header ul {
@@ -68,8 +66,8 @@ header li a {
 }
 
 header li a:hover {
-  background-color: #FFC0CB; /* Pink soft saat hover */
-  color: #003366; /* Teks biru tua saat hover */
+  background-color: #FFC0CB; 
+  color: #003366; 
   border-radius: 6px;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
@@ -82,7 +80,7 @@ header li a:focus {
 }
 
 header li a:active {
-  background-color: #FF69B4; /* Pink sedang saat active */
+  background-color: #FF69B4; 
   transform: translateY(1px);
   color: #fff;
 }
@@ -90,8 +88,8 @@ header li a:active {
 #home:target~header nav a[href="#home"],
 #about:target~header nav a[href="#about"],
 #contact:target~header nav a[href="#contact"] {
-  background: #fff; /* Background putih saat aktif */
-  color: #003366; /* Teks biru tua */
+  background: #fff; 
+  color: #003366; 
   font-weight: bold;
   border-radius: 6px;
   transition: all 0.3s ease;
@@ -100,21 +98,20 @@ header li a:active {
 #home,
 #about,
 #contact {
-  background-color: #ffffff; /* Background konten utama tetap putih agar mudah dibaca */
+  background-color: #ffffff; 
   border-radius: 10px;
   padding: 20px;
   max-width: 700px;
   margin: 20px auto;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  /* Menambahkan garis/border tipis berwarna pink soft */
-  border: 1px solid #FFC0CB; /* Light Pink */
+  border: 1px solid #FFC0CB; 
 }
 
 #home h2,
 #about h2,
 #contact h2 {
-  color: #003366; /* Judul berwarna biru tua */
-  border-bottom: 2px solid #FFC0CB; /* Garis bawah berwarna pink soft */
+  color: #003366; 
+  border-bottom: 2px solid #FFC0CB; 
   padding-bottom: 6px;
   margin-top: 0;
   margin-bottom: 16px;
@@ -126,7 +123,7 @@ header li a:active {
 
 #about p,
 #contact label {
-  display: flex; /* Mempertahankan layout sejajar/tabel */
+  display: flex; 
   justify-content: flex-start;
   align-items: baseline;
   margin: 0;
@@ -137,7 +134,7 @@ header li a:active {
 #about strong,
 #contact label>span {
   min-width: 180px;
-  color: #003366; /* Label berwarna biru tua */
+  color: #003366; 
   font-weight: 600;
   text-align: right;
   padding-right: 16px;
@@ -147,7 +144,7 @@ header li a:active {
 #contact input,
 #contact textarea {
   flex: 1;
-  border: 1px solid #003366; /* Border input biru tua */
+  border: 1px solid #003366; 
   border-radius: 6px;
   padding: 8px;
   color: #000;
@@ -169,20 +166,20 @@ header li a:active {
 }
 
 #contact button[type="submit"] {
-  background-color: #FFC0CB; /* Tombol submit pink soft */
-  color: #003366; /* Teks biru tua */
+  background-color: #FFC0CB; 
+  color: #003366; 
   font-weight: 600;
 }
 
-/* --- PERUBAHAN TOMBOL RESET (BATAL) --- */
+
 #contact button[type="reset"] {
-  background-color: #003366; /* Tombol batal biru tua */
-  color: #fff; /* Teks putih */
+  background-color: #003366; 
+  color: #fff; 
   font-weight: 500;
 }
 
 #contact button[type="submit"]:hover {
-  background-color: #FFC0CB; /* Hover submit jadi pink soft */
+  background-color: #FFC0CB; 
   color: #003366;
   transform: translateY(-1px);
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
@@ -194,30 +191,29 @@ header li a:active {
 }
 
 footer {
-  background: #003366; /* Background footer biru tua */
+  background: #003366; 
   color: #aaa;
   text-align: center;
   padding: 10px;
 }
 
 footer::after {
-    /* Konten asli, tambahkan emoji elegan di sebelah kanan */
     content: ' 💖 ⭐';
-    color: #FFC0CB; /* Warna pink soft untuk emoji */
+    color: #FFC0CB;
 }
 
-/* Tambahkan pseudo-element baru untuk sisi kiri */
+
 footer::before {
-    content: '⭐ '; /* Emoji elegan di sebelah kiri */
-    color: #FFC0CB; /* Gunakan warna yang sama agar serasi */
+    content: '⭐ '; 
+    color: #FFC0CB; 
 }
 
-/* Sedikit penyesuaian estetika (diperlukan untuk perataan yang rapi) */
+
 footer {
     display: flex;
-    justify-content: center; /* Memusatkan semua konten */
+    justify-content: center; 
     align-items: center;
-    gap: 5px; /* Memberi jarak antara emoji dan teks */
+    gap: 5px; 
 }
 
 .menu-toggle {
