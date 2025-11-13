@@ -17,7 +17,7 @@ hari ini kamis 13 november 2025
     <li>styling footer nama saya</li>
     <li>styling tombol kirim dan batal</li>
     <li>styling animasi header</li>
-    <li></li>
+    <li>styling home about kontak</li>
     <li></li>
     <li></li>
     <li></li>
