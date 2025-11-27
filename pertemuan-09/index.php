@@ -119,15 +119,10 @@ endif;
       "adik" => ["label" => "Nama Adik:", "suffix" => ""],
     ];
     ?>
-    
+
     <section id="about">
       <h2>Tentang Saya</h2>
-      <?php foreach ($fieldConfig as $kunci => $metadata): ?>
-        <p>
-          <strong><?= $metadata["label"] ?></strong>
-          <?= htmlspecialchars($biodata[$kunci] ?? "") ?>
-        </p>
-      <?php endforeach; ?>
+      <?= tampilkanBiodata($fieldConfig, $biodata) ?>
     </section>
 
     <section id="contact">

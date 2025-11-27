@@ -19,5 +19,6 @@
   <li>menambahkan kode baru ke dalam file fungsi.php</li>
   <li>menambahkan format tanggal</li>
   <li>menambahkan tampilan biodata</li>
+  <li>menggantikan tampilanbiodata</li>
    
 </ol>
