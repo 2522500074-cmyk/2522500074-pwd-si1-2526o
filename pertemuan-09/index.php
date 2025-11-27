@@ -17,7 +17,7 @@ if (isset($_SESSION["sespesan"])):
 endif;
 
 <?php
-$biodata = $_SEASSION["biodata"] ?? [];
+$biodata = $_SESSION["biodata"] ?? [];
 
 $fieldConfig = [
     "nim" => ["label" => "NIM:", "suffix" => ""],
@@ -126,7 +126,7 @@ $fieldConfig = [
          <?= htmlspecialchars($biodata[$kunci] ?? "") ?>
       </p>
     <?php endforeach; ?>
-    
+
       <p><strong>NIM:</strong> <?= $txtNim ?></p>
       <p><strong>Nama Lengkap:</strong> <?= $txtNmLengkap ?> &#128526;</p>
       <p><strong>Tempat Lahir:</strong> <?= $txtT4Lhr ?></p>
