@@ -17,5 +17,6 @@
   <li>menambahkan htmlspecialchars</li>
   <li>menghapus baris 130-140 di index.php</li>
   <li>menambahkan kode baru ke dalam file fungsi.php</li>
+  <li>menambahkan format tanggal</li>
    
 </ol>
