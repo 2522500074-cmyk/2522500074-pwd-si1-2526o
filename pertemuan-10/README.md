@@ -9,5 +9,7 @@ hari ini kamis 4 desember 2025
     <li>menambahkan file read.php serta menambhkan kode</li>
     <li>mengisi baris baris cnama,cemail,cpesan di insert phpMyAdmin</li>
     <li>menambahkan file read_inch.php serta merubah code dari read.php</li>
+    <li>menggantikan kode di file index.php barisan 146</li>
+
    
 <ol>
