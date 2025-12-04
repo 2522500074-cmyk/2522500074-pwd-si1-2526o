@@ -7,5 +7,6 @@ hari ini kamis 4 desember 2025
     <li>menginstal phpMyAdmin</li>
     <li>mengetik query untuk membuat tabel tbl_tamu</li>
     <li>menambahkan file read.php serta menambhkan kode</li>
+    <li>mengisi baris baris cnama,cemail,cpesan di insert phpMyAdmin</li>
    
 <ol>
