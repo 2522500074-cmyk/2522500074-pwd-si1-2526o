@@ -11,6 +11,7 @@ hari ini kamis 4 desember 2025
     <li>menambahkan file read_inch.php serta merubah code dari read.php</li>
     <li>menggantikan kode di file index.php barisan 146</li>
     <li>menghapus barisan 133-141 di file index.php</li>
+    <li>mengexport localhost serta menambahkanya ke file pertemuan 10</li>
 
    
 <ol>
