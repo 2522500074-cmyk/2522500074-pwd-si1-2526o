@@ -9,7 +9,6 @@ $fieldContact = [
 
 $sql = "SELECT * FROM tbl_tamu ORDER BY cid DESC";
 $q = mysqli_query($conn, $sql);
-
 if (!$q) {
     echo "<p>Gagal membaca data tamu: " . htmlspecialchars(mysqli_error($conn)) . "</p>";
 } elseif (mysqli_num_rows($q) === 0) {
@@ -21,9 +20,8 @@ if (!$q) {
             "email" => $row["cemail"] ?? "",
             "pesan" => $row["cpesan"] ?? "",
         ];
-
         echo tampilkanBiodata($fieldContact, $arrContact);
-}
+ }
 }
 ?>
 
