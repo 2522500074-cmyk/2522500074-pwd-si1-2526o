@@ -4,3 +4,4 @@ hari ini kamis 4 desember 2025
 <br>Nama: Engrasia Masyithah</br>
 <ol>
     <li>membuatkan skrip koneksi MySQL</li>
+    <li>menginstal phpMyAdmin</li>
