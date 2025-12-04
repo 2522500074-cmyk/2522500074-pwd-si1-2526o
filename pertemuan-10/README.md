@@ -5,3 +5,6 @@ hari ini kamis 4 desember 2025
 <ol>
     <li>membuatkan skrip koneksi MySQL</li>
     <li>menginstal phpMyAdmin</li>
+    <li>mengetik query untuk membuat tabel tbl_tamu</li>
+   
+<ol>
