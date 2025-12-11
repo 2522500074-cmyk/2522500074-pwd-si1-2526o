@@ -20,6 +20,8 @@ hari ini kamis 4 desember 2025
     <li>memodifikasi barisan 13-15 proses php</li>
     <li>menambahkan validasi</li>
     <li>menambahkan session old nama pesan email</li>
+    <li>menambahkan prepared statement</li>
+
 
    
 <ol>
