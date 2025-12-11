@@ -32,6 +32,22 @@ if ($pesan === '') {
 }
 
 
+
+
+
+
+if (!empty($errors)) {
+  $_SESSION['old'] = [
+    'nama' => $nama,
+    'email' => $email,
+    'pesan' => $pesan,
+  ];
+
+  $_SESSION['flash_error'] = implode('<br>', $errors);
+  redirect_ke('index.php#contact');
+}
+
+
 $arrContact = [
   "nama" => $_POST["txtNama"] ?? "",
   "email" => $_POST["txtEmail"] ?? "",
