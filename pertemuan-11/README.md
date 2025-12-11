@@ -18,6 +18,7 @@ hari ini kamis 4 desember 2025
     <li>menambahkan value nama email pesan di index.php</li>
     <li>tambah request metdhod di proses.php</li>
     <li>memodifikasi barisan 13-15 proses php</li>
+    <li>menambahkan validasi</li>
 
    
 <ol>
