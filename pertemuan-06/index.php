@@ -73,7 +73,7 @@ margin-bottom: 2px;
 #contact button {
 width: 100%;
 }
-}
+
 
   </style>
 </head>
