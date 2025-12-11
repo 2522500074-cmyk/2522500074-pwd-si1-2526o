@@ -15,6 +15,7 @@ hari ini kamis 4 desember 2025
     <li>mengupdate fungsi.php</li>
     <li>menambahkan flash message dari session/li>
     <li>menampilkan flash sukses dan flas eror di barisan 123-133</li>
+    <li>menambahkan value nama email pesan di index.php</li>
 
    
 <ol>
