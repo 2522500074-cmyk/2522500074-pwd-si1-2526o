@@ -14,6 +14,7 @@ hari ini kamis 4 desember 2025
     <li>mengexport localhost serta menambahkanya ke file pertemuan 10</li>
     <li>mengupdate fungsi.php</li>
     <li>menambahkan flash message dari session/li>
+    <li>menampilkan flash sukses dan flas eror di barisan 123-133</li>
 
    
 <ol>
