@@ -13,6 +13,7 @@ hari ini kamis 4 desember 2025
     <li>menghapus barisan 133-141 di file index.php</li>
     <li>mengexport localhost serta menambahkanya ke file pertemuan 10</li>
     <li>mengupdate fungsi.php</li>
+    <li>menambahkan flash message dari session/li>
 
    
 <ol>
