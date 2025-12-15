@@ -33,22 +33,3 @@ $q = mysqli_query($conn, $sql);
     </tr>
 </thead>
 
-<!-- Di dalam file read.php, di bagian perulangan data (biasanya loop while atau foreach) -->
-<?php
-$no = 1; // Inisialisasi variabel nomor urut
-if ($result->num_rows > 0) {
-    while($row = $result->fetch_assoc()) {
-        echo "<tr>";
-        echo "<td>" . $no++ . "</td>"; // Tampilkan nomor urut dan tambahkan 1
-        echo "<td>" . $row["ID"] . "</td>";
-        echo "<td>" . $row["Nama"] . "</td>";
-        echo "<td>" . $row["Email"] . "</td>";
-        echo "<td>" . $row["Pesan"] . "</td>";
-        // Untuk tugas no 5
-        echo "<td>" . $row["dcreated_at"] . "</td>"; 
-        echo "</tr>";
-    }
-} else {
-    echo "<tr><td colspan='6'>Tidak ada data</td></tr>"; // Sesuaikan colspan
-}
-?>
