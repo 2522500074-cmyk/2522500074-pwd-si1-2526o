@@ -20,3 +20,38 @@ $q = mysqli_query($conn, $sql);
 </tr>
 <?php endwhile; ?>
 </table>
+
+<?php
+// ... (Kode koneksi database dan query SELECT Anda yang sudah ada)
+
+$result = mysqli_query($conn, "SELECT * FROM tbl_tamu"); // Ganti tbl_tamu jika nama tabel berbeda
+
+echo "<table border='1'>";
+echo "<tr><th>No</th><th>ID</th><th>Nama</th><th>Email</th><th>Pesan</th></tr>";
+
+// Inisialisasi nomor urut
+$no = 1;
+
+if (mysqli_num_rows($result) > 0) {
+    // Loop untuk menampilkan data
+    while($row = mysqli_fetch_assoc($result)) {
+        echo "<tr>";
+        // Menampilkan nomor urut
+        echo "<td>" . $no . "</td>";
+        // Menampilkan data lainnya dari database
+        echo "<td>" . $row["ID"] . "</td>";
+        echo "<td>" . $row["Nama"] . "</td>";
+        echo "<td>" . $row["Email"] . "</td>";
+        echo "<td>" . $row["Pesan"] . "</td>";
+        echo "</tr>";
+        
+        // Menambahkan nomor urut untuk baris selanjutnya
+        $no++;
+    }
+} else {
+    echo "<tr><td colspan='5'>Tidak ada data ditemukan.</td></tr>";
+}
+echo "</table>";
+
+// ... (Kode penutup lainnya)
+?>
