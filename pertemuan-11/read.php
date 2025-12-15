@@ -21,15 +21,4 @@ $q = mysqli_query($conn, $sql);
 <?php endwhile; ?>
 </table>
 
-<!-- Di dalam file read.php, temukan bagian header tabel (<thead>) -->
-<thead>
-    <tr>
-        <th>No</th> <!-- Tambahkan baris ini -->
-        <th>ID</th>
-        <th>Nama</th>
-        <th>Email</th>
-        <th>Pesan</th>
-        <th>Created At</th> <!-- Untuk tugas no 5 -->
-    </tr>
-</thead>
 
