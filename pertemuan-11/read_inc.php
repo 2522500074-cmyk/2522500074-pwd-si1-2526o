@@ -1,5 +1,6 @@
 <?php
 require 'koneksi.php';
+require 'fungsi.php';
 
 $fieldContact = [
     "nama" => ["label" => "Nama:", "suffix" => ""],

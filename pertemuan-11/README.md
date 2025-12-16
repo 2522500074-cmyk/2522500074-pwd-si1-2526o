@@ -27,6 +27,11 @@ hari ini kamis 4 desember 2025
     <li>menambahkan label captcha di index.php</li>
     <li>menambahkan dcreated di tbl_tamu</li>
     <li>menambahkan dcreated di read.php</li>
+    <li>menambahkan require di read_inc.php</li>
+    
+
+
+
 
 
 
