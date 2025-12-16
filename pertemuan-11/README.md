@@ -21,6 +21,7 @@ hari ini kamis 4 desember 2025
     <li>menambahkan validasi</li>
     <li>menambahkan session old nama pesan email</li>
     <li>menambahkan prepared statement</li>
+    <li>menambahkan variabel di read.php</li>
 
 
    
