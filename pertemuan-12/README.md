@@ -29,7 +29,7 @@ hari ini kamis 4 desember 2025
     <li>menambahkan dcreated di read.php</li>
     <li>menambahkan require di read_inc.php</li>
     <li>menambahkan kolom aksi</li>
-    <li></li>
+    <li>menambahkan tombol edit</li>
     <li></li>
     <li></li>
     <li></li>
