@@ -89,19 +89,19 @@ if (!empty($old)) {
 <label for="txtNama"><span>Nama:</span>
     <input type="text" id="txtNama" name="txtNamaEd"
     placeholder="Masukkan nama" required autocomplete="name"
-    value="<? empty($nama) ? $nama: '' ?>">
+    value="<?= !empty($nama) ? $nama : '' ?>">
 </label>
 
 <label for="txtEmail"><span>Email:</span>
     <input type="email" id="txtEmail" name="txtEmailEd"
     placeholder="Masukkan email" required autocomplete="email"
-    value="<?= empty($email) ? $email: '' ?>">
+    value="<?= !empty($email) ? $email : '' ?>">
 </label>
 
 <label for="txtPesan"><span>Pesan Anda:</span>
     <textarea id="txtPesan" name="txtPesanEd" rows="4"
     placeholder="Tulis pesan anda..."
-    required> <?= empty($pesan) ? $pesan: '' ?></textarea>
+    required> <?= !empty($pesan) ? $pesan : '' ?></textarea>
 </label>
 
 <label for="txtCaptcha"><span>Captcha 2 x 3 = ?</span>
