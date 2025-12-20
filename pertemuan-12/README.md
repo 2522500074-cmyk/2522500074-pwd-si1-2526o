@@ -32,8 +32,8 @@ hari ini kamis 4 desember 2025
     <li>menambahkan tombol edit</li>
     <li>menambahkan session pada read.php</li>
     <li>menambahkan file edit.php dan menambhakn skrip berikiut ini</li>
+    <li>mrnambahkan file proses_update.php serta  menambahkan kode</li>
     <li></li>
-     <li></li>
     <li></li>
 
     
