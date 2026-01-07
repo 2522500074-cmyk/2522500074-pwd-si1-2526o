@@ -13,7 +13,7 @@
   }
 
     $stmt = mysqli_prepare($conn, "SELECT cid, cnama, cemail, cpesan 
-                                FROM tbl_tamu WHERE id = cid");
+                                FROM tbl_tamu WHERE cid = ? LIMIT 1");
     if (!$stmt) {
         $_SESSION['flash_error'] = 'Query tidak benar.';
         redirect_ke('read.php');
