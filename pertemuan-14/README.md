@@ -6,4 +6,5 @@ hari ini sabtu 10 Januari 2026
     <li>mengekstrak file ke pertemuan 14</li>
     <li>menambahkan file delete</li>
     <li>menambahkan link delete</li>
-    <li>menambhakan file darinproses updtae ke proses delete php</li>
+    <li>menambhakan file dari proses updtae ke proses delete php</li>
+    <li>menghapus dan menyesuaikan proses delete</li>
