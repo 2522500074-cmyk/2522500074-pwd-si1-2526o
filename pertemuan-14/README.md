@@ -4,3 +4,4 @@ hari ini sabtu 10 Januari 2026
 <br>Nama: Engrasia Masyithah</br>
 <ol>
     <li>mengekstrak file ke pertemuan 14</li>
+    <li>menambahkan file delete</li>
