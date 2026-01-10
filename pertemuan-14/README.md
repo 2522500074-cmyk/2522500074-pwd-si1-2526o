@@ -8,3 +8,4 @@ hari ini sabtu 10 Januari 2026
     <li>menambahkan link delete</li>
     <li>menambhakan file dari proses updtae ke proses delete php</li>
     <li>menghapus dan menyesuaikan proses delete</li>
+    <li>menambahkan parameter</li>
