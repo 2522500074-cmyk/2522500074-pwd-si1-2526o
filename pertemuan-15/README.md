@@ -4,3 +4,4 @@
 <ol>
     <li>membuat table data biodata</li>
     <li>mengcopy file ke pertemuan 15</li>
+    <li>mengcopy kode read.php ke file read_biodata.php dan membuat file baru</li>
