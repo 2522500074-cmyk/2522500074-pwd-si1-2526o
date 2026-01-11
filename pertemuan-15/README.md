@@ -11,5 +11,7 @@
     <li>menambahkan file baru proses biodata php</li>
     <li>mengubahkan kode ke file proses biodata php</li>
     <li>mengubah kode index.php</li>
+    <li>mengedit kode editbiodataphp</li>
+
 
 
