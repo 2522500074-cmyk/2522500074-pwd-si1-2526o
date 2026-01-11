@@ -1,10 +1,18 @@
 <?php
 require 'koneksi.php';
+require_ONCE 'fungsi.php';
 
-$fieldContact = [
-  "nama" => ["label" => "Nama:", "suffix" => ""],
-  "email" => ["label" => "Email:", "suffix" => ""],
-  "pesan" => ["label" => "Pesan Anda:", "suffix" => ""]
+$fieldConfig = [
+  "nim" => ["label" => "NIM:", "suffix" => ""],
+  "nama" => ["label" => "nama lengkap:", "suffix" => ""],
+  "tempat" => ["label" => "tempat lahir:", "suffix" => ""],
+  "tanggal" => ["label" => "tanggal lahir:", "suffix" => ""],
+  "hobi" => ["label" => "hobi:", "suffix" => ""],
+  "pasangan" => ["label" => "pasangan:", "suffix" => ""],
+  "pekerjaan" => ["label" => "pekerjaan:", "suffix" => ""],
+  "orangtua" => ["label" => "nama orang tua:", "suffix" => ""],
+  "kakak" => ["label" => "nama kakak:", "suffix" => ""],
+  "adik" => ["label" => "nama adik:", "suffix" => ""],
 ];
 
 $sql = "SELECT * FROM tbl_tamu ORDER BY cid DESC";
@@ -16,9 +24,16 @@ if (!$q) {
 } else {
   while ($row = mysqli_fetch_assoc($q)) {
     $arrContact = [
-      "nama"  => $row["cnama"]  ?? "",
-      "email" => $row["cemail"] ?? "",
-      "pesan" => $row["cpesan"] ?? "",
+      "nim"  => $row["cnim"],
+      "nama" => $row["cnama_lengkap"],
+      "tempat" => $row["cnama_tempat"],
+      "tanggal" => $row["ctanggal_lahir"],
+      "hobi" => $row["chobi"],
+      "pasangan" => $row["cpasangan"],
+      "pekerjaan" => $row["cpekerjaan"],
+      "orangtua" => $row["cnama_orangtua"],
+      "kakak" => $row["cnama_kakak"],
+      "adik" => $row["cnama_adik"],
     ];
     echo tampilkanBiodata($fieldContact, $arrContact);
   }
