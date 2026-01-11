@@ -6,3 +6,4 @@
     <li>mengcopy file ke pertemuan 15</li>
     <li>mengcopy kode read.php ke file read_biodata.php dan membuat file baru</li>
     <li>menambahkan kode baru sesuai yang di ketik di phpmyadmin di readbiodataphp</li>
+    <li>membuat file baru read_ind.biodata.php</li>
