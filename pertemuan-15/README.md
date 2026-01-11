@@ -13,6 +13,7 @@
     <li>mengubah kode index.php</li>
     <li>mengedit kode file editbiodataphp</li>
     <li>membuat file proses delete biodata php</li>
+    <li>membuat file baru proses update biodata.php</li>
 
 
 
