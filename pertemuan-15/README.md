@@ -15,6 +15,7 @@
     <li>membuat file proses delete biodata php</li>
     <li>membuat file baru proses update biodata.php</li>
     <li>memperbaiki kode yang eror</li>
+    <li>mengubah dan memperbaiki file index</li>
 
 
 
