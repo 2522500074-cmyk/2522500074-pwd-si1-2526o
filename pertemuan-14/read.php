@@ -47,7 +47,7 @@
       <td><?= $i++ ?></td>
       <td>
         <a href="edit.php?cid=<?= (int)$row['cid']; ?>">Edit</a>
-        <a onclick="return confirm('Yakin nek ngapus <?= htmlspecialchars($row['cnama']); ?>?');" href=proses_delete.php ?cid=<?= (int)$row['cid']; ?>">delete</a>
+        <a onclick="return confirm('Yakin nek ngapus <?= htmlspecialchars($row['cnama']); ?>?');"href=proses_delete.php ?cid=<?= (int)$row['cid']; ?>">delete</a>
     </td>
       <td><?= $row['cid']; ?></td>
       <td><?= htmlspecialchars($row['cnama']); ?></td>

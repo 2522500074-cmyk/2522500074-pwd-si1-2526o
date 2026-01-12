@@ -1,41 +1,40 @@
 <?php
-require 'koneksi.php';
-require_ONCE 'fungsi.php';
+require_once 'koneksi.php';
+require_once 'fungsi.php';
 
 $fieldConfig = [
-  "nim" => ["label" => "NIM:", "suffix" => ""],
-  "nama" => ["label" => "nama lengkap:", "suffix" => ""],
-  "tempat" => ["label" => "tempat lahir:", "suffix" => ""],
-  "tanggal" => ["label" => "tanggal lahir:", "suffix" => ""],
-  "hobi" => ["label" => "hobi:", "suffix" => ""],
-  "pasangan" => ["label" => "pasangan:", "suffix" => ""],
-  "pekerjaan" => ["label" => "pekerjaan:", "suffix" => ""],
-  "orangtua" => ["label" => "nama orang tua:", "suffix" => ""],
-  "kakak" => ["label" => "nama kakak:", "suffix" => ""],
-  "adik" => ["label" => "nama adik:", "suffix" => ""],
+    "nim" => ["label" => "NIM:", "suffix" => ""],
+    "nama" => ["label" => "Nama Lengkap:", "suffix" => " &#128526;"],
+    "tempat" => ["label" => "Tempat Lahir:", "suffix" => ""],
+    "tanggal" => ["label" => "Tanggal Lahir:", "suffix" => ""],
+    "hobi" => ["label" => "Hobi:", "suffix" => " &#127926;"],
+    "pasangan" => ["label" => "Pasangan:", "suffix" => " &hearts;"],
+    "pekerjaan" => ["label" => "Pekerjaan:", "suffix" => " &copy; 2025"],
+    "ortu" => ["label" => "Nama Orang Tua:", "suffix" => ""],
+    "kakak" => ["label" => "Nama Kakak:", "suffix" => ""],
+    "adik" => ["label" => "Nama Adik:", "suffix" => ""],
 ];
-
-$sql = "SELECT * FROM tbl_tamu ORDER BY cid DESC";
+$sql = "SELECT * FROM tbl_biodata_mahasiswa_sederhana ORDER BY cid DESC";
 $q = mysqli_query($conn, $sql);
 if (!$q) {
-  echo "<p>Gagal membaca data tamu: " . htmlspecialchars(mysqli_error($conn)) . "</p>";
+    echo "<p>Gagal membaca data mahasiswa: " . htmlspecialchars(mysqli_error($conn)) . "</p>";
 } elseif (mysqli_num_rows($q) === 0) {
-  echo "<p>Belum ada data tamu yang tersimpan.</p>";
+    echo "<p>Belum ada data mahasiswa yang tersimpan.</p>";
 } else {
-  while ($row = mysqli_fetch_assoc($q)) {
-    $arrContact = [
-      "nim"  => $row["cnim"],
-      "nama" => $row["cnama_lengkap"],
-      "tempat" => $row["cnama_tempat"],
-      "tanggal" => $row["ctanggal_lahir"],
-      "hobi" => $row["chobi"],
-      "pasangan" => $row["cpasangan"],
-      "pekerjaan" => $row["cpekerjaan"],
-      "orangtua" => $row["cnama_orangtua"],
-      "kakak" => $row["cnama_kakak"],
-      "adik" => $row["cnama_adik"],
-    ];
-    echo tampilkanBiodata($fieldContact, $arrContact);
-  }
+    while ($row = mysqli_fetch_assoc($q)) {
+        $arrBiodata = [
+        "nim"       => $row["cnim"],
+        "nama"      => $row["cnama_lengkap"],
+        "tempat"    => $row["ctempat_lahir"],
+        "tanggal"   => $row["ctanggal_lahir"],
+        "hobi"      => $row["chobi"],
+        "pasangan"  => $row["cpasangan"],
+        "pekerjaan" => $row["cpekerjaan"],
+        "ortu"      => $row["cnama_orang_tua"],
+        "kakak"     => $row["cnama_kakak"],
+        "adik"      => $row["cnama_adik"],
+        ];
+        echo tampilkanBiodata($fieldConfig, $arrBiodata);
+    }
 }
 ?>

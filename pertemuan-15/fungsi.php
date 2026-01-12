@@ -1,4 +1,7 @@
 <?php
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
 function redirect_ke($url)
 {
   header("Location: " . $url);

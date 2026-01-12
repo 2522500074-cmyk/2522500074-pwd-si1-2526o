@@ -1,7 +1,6 @@
 <?php
-  session_start();
-  require 'koneksi.php';
-  require 'fungsi.php';
+  require_once 'koneksi.php';
+  require_once 'fungsi.php';
 
   $sql = "SELECT * FROM tbl_biodata_mahasiswa_sederhana ORDER BY cid DESC";
   $q = mysqli_query($conn, $sql);
@@ -36,16 +35,25 @@
     <th>No</th>
     <th>Aksi</th>
     <th>ID</th>
+    <th>NIM</th>
     <th>Nama</th>
-    <th>Email</th>
-    <th>Pesan</th>
-    <th>Created At</th>
+    <th>Tempat lahir</th>
+    <th>Tanggal lahir</th>
+    <th>Hobi</th>
+    <th>Pasangan</th>
+    <th>Pekerjaan</th>
+    <th>Nama Orang Tua</th>
+    <th>Nama kakak</th>
+    <th>Nama adik</th>
   </tr>
   <?php $i = 1; ?>
   <?php while ($row = mysqli_fetch_assoc($q)): ?>
     <tr>
       <td><?= $i++ ?></td>
-      <td><a href="edit.php?cid=<?= (int)$row['cid']; ?>">Edit</a></td>
+      <td>
+        <a href="edit_biodata.php?cid=<?= (int)$row['cid']; ?>">Edit</a>
+        <a onclick="return confirm('Hapus <?= htmlspecialchars($row['bnama_lengkap']); ?>?')" href="proses_delete_biodata.php?id=<?= (int)$row['id']; ?>">Delete</a>
+      </td>
       <td><?= $row['cid']; ?></td>
       <td><?= htmlspecialchars($row['cnim']); ?></td>
       <td><?= htmlspecialchars($row['cnama_lengkap']); ?></td>
@@ -55,10 +63,8 @@
       <td><?= htmlspecialchars($row['cpasangan']); ?></td>
       <td><?= htmlspecialchars($row['cpekerjaan']); ?></td>
       <td><?= htmlspecialchars($row['cnama_orang_tua']); ?></td>
-      <td><?= htmlspecialchars($row['cnama_kaka']); ?></td>
+      <td><?= htmlspecialchars($row['cnama_kakak']); ?></td>
       <td><?= htmlspecialchars($row['cnama_adik']); ?></td>
-      
-      <td><?= formatTanggal(htmlspecialchars($row['dcreated_at'])); ?></td>
     </tr>
   <?php endwhile; ?>
 </table>

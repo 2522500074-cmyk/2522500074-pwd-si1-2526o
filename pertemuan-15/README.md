@@ -14,6 +14,7 @@
     <li>mengedit kode file editbiodataphp</li>
     <li>membuat file proses delete biodata php</li>
     <li>membuat file baru proses update biodata.php</li>
+    <li>memperbaiki kode yang eror</li>
 
 
 
