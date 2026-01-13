@@ -2,8 +2,8 @@
 <br>Nim: 2522500074</br>
 <br>Nama: Engrasia Masyithah</br>
 <ol>
-    <li>membuat table data biodata</li>
-    <li>mengcopy file ke pertemuan 15</li>
+    <li>Membuat tabel data biodata di database melalui phpMyAdmin</li>
+    <li>Menyalin seluruh file ke folder pertemuan 15</li>
     <li>mengcopy kode read.php ke file read_biodata.php dan membuat file baru</li>
     <li>menambahkan kode baru sesuai yang di ketik di phpmyadmin di readbiodataphp</li>
     <li>membuat file baru read_ind.biodata.php</li>
