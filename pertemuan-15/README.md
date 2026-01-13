@@ -1,6 +1,6 @@
 # pertemuan-15
-<br>Nim: 2522500074</br>
-<br>Nama: Engrasia Masyithah</br>
+<br>NIM: 2522500074</br>
+<br>NAMA: ENGRASIA MASYITHAH</br>
 <ol>
     <li>Membuat tabel data biodata di database melalui phpMyAdmin</li>
     <li>Menyalin seluruh file ke folder pertemuan 15</li>
@@ -16,6 +16,7 @@
     <li>Membuat file baru proses_update_biodata.php untuk memperbarui data</li>
     <li>Memperbaiki semua kode yang error di seluruh file</li>
     <li>Mengubah dan menyempurnakan file index.php sebagai halaman utama</li>
+<ol>
 
 
 
