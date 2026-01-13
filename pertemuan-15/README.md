@@ -4,11 +4,11 @@
 <ol>
     <li>Membuat tabel data biodata di database melalui phpMyAdmin</li>
     <li>Menyalin seluruh file ke folder pertemuan 15</li>
-    <li>mengcopy kode read.php ke file read_biodata.php dan membuat file baru</li>
-    <li>menambahkan kode baru sesuai yang di ketik di phpmyadmin di readbiodataphp</li>
-    <li>membuat file baru read_ind.biodata.php</li>
-    <li>menambahkan kode nim dll di read in biodata php</li>
-    <li>menambahkan file baru proses biodata php</li>
+    <li>Menduplikasi file read.php menjadi read_biodata.php sebagai file baru</li>
+    <li>Menambahkan query SQL baru (sesuai kode yang diketik di phpMyAdmin) ke dalam file read_biodata.php</li>
+    <li>Membuat file baru read_ind_biodata.php untuk menampilkan biodata </li>
+    <li>Menambahkan kolom NIM dan field terkait ke dalam file read_ind_biodata.php</li>
+    <li>mMembuat file baru proses_biodata.php untuk menangani input data</li>
     <li>mengubahkan kode ke file proses biodata php</li>
     <li>mengubah kode index.php</li>
     <li>mengedit kode file editbiodataphp</li>
