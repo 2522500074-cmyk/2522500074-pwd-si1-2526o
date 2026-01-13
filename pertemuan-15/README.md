@@ -9,13 +9,13 @@
     <li>Membuat file baru read_ind_biodata.php untuk menampilkan biodata </li>
     <li>Menambahkan kolom NIM dan field terkait ke dalam file read_ind_biodata.php</li>
     <li>mMembuat file baru proses_biodata.php untuk menangani input data</li>
-    <li>mengubahkan kode ke file proses biodata php</li>
-    <li>mengubah kode index.php</li>
-    <li>mengedit kode file editbiodataphp</li>
-    <li>membuat file proses delete biodata php</li>
-    <li>membuat file baru proses update biodata.php</li>
-    <li>memperbaiki kode yang eror</li>
-    <li>mengubah dan memperbaiki file index</li>
+    <li>Memindahkan dan menyesuaikan kode ke file proses_biodata.php</li>
+    <li>Mengubah kode di file index.php agar terintegrasi dengan modul biodata</li>
+    <li>Mengedit kode file edit_biodata.php untuk fungsi edit data</li>
+    <li>Membuat file baru proses_delete_biodata.php untuk menghapus data</li>
+    <li>Membuat file baru proses_update_biodata.php untuk memperbarui data</li>
+    <li>Memperbaiki semua kode yang error di seluruh file</li>
+    <li>Mengubah dan menyempurnakan file index.php sebagai halaman utama</li>
 
 
 
