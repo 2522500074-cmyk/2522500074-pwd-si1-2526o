@@ -14,7 +14,7 @@ nim : 2522500074<br>
     <li>mengupdate kode pengunjung yg sama dengan database sesuai file update php</li>
     <li>mengupdate tabel biodata sesuai yang ada di data base</li>
     <li>menambahkan form delete dengan menambahkan nama sesuai database</li>
-    <li>menginput variabel nama</li>
+    <li>Perbaiki query SELECT pada prepared statement untuk mengambil data pengunjung berdasarkan cid</li>
     <li>menginput variabel nama</li>
     <li>menginput variabel nama</li>
     <li>menginput variabel nama</li>
