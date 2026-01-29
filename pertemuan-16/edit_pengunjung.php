@@ -43,8 +43,8 @@
     $nama_adik          = $row['mnama_mantan'] ?? '';
 
   $flash_error = $_SESSION['flash_error'] ?? '';
-  $old_biodata = $_SESSION['old_biodata'] ?? [];
-  unset($_SESSION['flash_error'], $_SESSION['old_biodata']);
+  $old_biodata = $_SESSION['old_pengunjung'] ?? [];
+  unset($_SESSION['flash_error'], $_SESSION['old_pengunjung']);
   
   if (!empty($old_biodata)) {
     $kode_pengunjung      = $old_biodata['kode_pengunjung'] ?? $kode_pengunjung;

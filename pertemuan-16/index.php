@@ -125,7 +125,14 @@ require_once __DIR__ . '/fungsi.php';
         <button type="submit">Kirim</button>
         <button type="reset">Batal</button>
       </form>
-    </section>
+
+      <br><hr>
+      <h2>Data Pengunjung yang Masuk</h2>
+      <?php include 'read_pengunjung_inc.php'; ?>
+      <!-- AKHIR KODE BARU -->
+
+    
+      </section>
 
     <section id="about">
       <h2>Tentang Saya</h2>
