@@ -8,7 +8,7 @@ nim : 2522500074<br>
     <li>menambahkan tabel broder dan htmlchars mengubahnya sesuai dengan databaase kita</li>
     <li>menginput variabel nama</li>
     <li>menambahkan query insert sesuai database</li>
-    <li>menginput variabel nama</li>
+    <li>menambahkan sesion old biodata </li>
     <li>menginput variabel nama</li>
     <li>menginput variabel nama</li>
     <li>menginput variabel nama</li>
