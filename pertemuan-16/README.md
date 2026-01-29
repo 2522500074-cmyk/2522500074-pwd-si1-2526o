@@ -15,7 +15,7 @@ nim : 2522500074<br>
     <li>mengupdate tabel biodata sesuai yang ada di data base</li>
     <li>menambahkan form delete dengan menambahkan nama sesuai database</li>
     <li>Perbaiki query SELECT pada prepared statement untuk mengambil data pengunjung berdasarkan cid</li>
-    <li>menginput variabel nama</li>
+    <li>Perbaiki pengambilan data dan unset session pada proses edit biodata</li>
     <li>menginput variabel nama</li>
     <li>menginput variabel nama</li>
 
