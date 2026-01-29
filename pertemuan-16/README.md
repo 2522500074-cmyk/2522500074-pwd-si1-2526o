@@ -19,7 +19,7 @@ nim : 2522500074<br>
     <li>menambahkan manajemen sesi biodata pengunjung</li>
     <li>Tambahkan formulir input biodata pengunjung</li>
     <li>menambahkan manajemen sesi biodata pengunjung</li>
-    <li>menginput variabel nama</li>
+    <li>Perbaiki penanganan pesan error atau sukses</li>
     <li>menginput variabel nama</li>
     <li>menginput variabel nama</li>
     <li>menginput variabel nama</li>
