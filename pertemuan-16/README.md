@@ -5,4 +5,5 @@ nim : 2522500074<br>
     <li>mengcopy bahan ajar darii bapak</li>
     <li>membuat tabel di pdhmyadmin</li>
     <li>menambahkan form tbl menjadi bidata daftar pengunjung</li>
+    <li>menambahkan tabel broder dan htmlchars mengubahnya sesuai dengan databaase kita</li>
 
