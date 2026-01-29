@@ -66,7 +66,7 @@ require_once __DIR__ . '/fungsi.php';
           <input type="text" id="txtKdPengunjung" name="txtKdPengunjung"
           placeholder="Masukkan kode pengunjung"
             required value="<?= htmlspecialchars($old_biodata['kode'] ?? '') ?>">
-      </label>
+        </label>
 
         <label for="txtNmPengunjung"><span>Nama Pengunjung:</span>
           <input type="text" id="txtNmPengunjung" name="txtNmPengunjung"
@@ -189,7 +189,7 @@ require_once __DIR__ . '/fungsi.php';
       <br><hr>
       <h2>Yang menghubungi kami</h2>
       <?php include 'read_inc.php'; ?>
-      </section>
+    </section>
   </main>
 
   <footer>
