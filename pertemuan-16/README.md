@@ -26,4 +26,5 @@ nim : 2522500074<br>
     <li>menginput variabel nama</li>
     <li>menginput variabel nama</li>
     <li>menginput variabel nama</li>
+    <li>mengeksport lokalhost</li>
 

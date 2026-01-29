@@ -1,6 +1,7 @@
 <?php
   require_once 'koneksi.php';
   require_once 'fungsi.php';
+  session_start();
 
   $cid = filter_input(INPUT_GET, 'cid', FILTER_VALIDATE_INT, [
     'options' => ['min_range' => 1]
